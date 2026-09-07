@@ -1,0 +1,25 @@
+name: Link Check
+
+on:
+  schedule:
+    - cron: "0 3 5 * *"  # monthly, on the 5th
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          # reddit/IATA/travelchina block bots — excluded to avoid false positives
+          args: >-
+            --no-progress
+            --timeout 20
+            --exclude 'reddit\.com|iatatravelcentre\.com|travelchina\.gov\.cn'
+            README.md
+          fail: false
+          output: /tmp/lychee-report.md
+      - name: Report broken links (if any)
+        if: steps.lychee.outputs.exit_code != 0
+        run: cat /tmp/lychee-report.md

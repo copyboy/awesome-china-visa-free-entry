@@ -54,6 +54,7 @@ Policies change often — always double-check with official sources (or your air
 ## 🚇 Getting Around
 
 - [China Metro Guide](https://chinaneighbor.com/guide/transport/china-metro-guide-for-foreigners-2026/) - Metro systems, fares and payment (2026)
+- [TripInfoHub: Chongqing Transport Guide](https://tripinfohub.com/en/blog/c/chongqing/chongqing-transport-metro-monorail-airport-station-guide/) - Airport and rail-station transfers, metro exits and luggage-aware routes for a first visit
 - [DiDi](https://www.didiglobal.com/) - Ride-hailing with an international-friendly app
 - [XE: CNY Rates](https://www.xe.com/currency/cny-chinese-yuan/) - Live yuan exchange rates
 - [AQI: China Map](https://aqicn.org/map/china/) - Real-time air quality
@@ -70,3 +71,4 @@ PRs welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md). Only add resources 
 ## Maintainer
 
 Maintained by [Gerrad Zhang](https://i.zhangqingdong.cn) — builder of [China Neighbor](https://chinaneighbor.com), practical guides for foreigners living in and traveling to China.
+

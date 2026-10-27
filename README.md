@@ -29,6 +29,7 @@ Policies change often — always double-check with official sources (or your air
 ## 🧭 Eligibility Checkers & Tools
 
 - [240-Hour Visa-Free Transit Checker](https://chinaneighbor.com/tools/144-visa-checker/) - Check eligibility by nationality × port × itinerary (2026 policy)
+- [China Travel Check](https://gochina.taoliapp.com/) - Verified English field manual for independent China travel: visa-free/transit guidance, payments, eSIM, trains, and apps (each page stamped with a verification date).
 - [eSIM Data Calculator](https://chinaneighbor.com/tools/esim-data-calculator/) - Estimate how much China travel data you actually need
 - [eSIMDB: China](https://esimdb.com/china) - Compare China eSIM plans across 200+ providers
 
